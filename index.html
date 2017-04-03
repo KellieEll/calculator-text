@@ -1,5 +1,3 @@
-//user inputs number of minutes showering per week// //user inputs minutes spent washing dishes per day// //user inputs minutes spent brushing teeth, hand washing and face washing. Personal grooming// //User inputs number of minutes using a hose for plants
-and pets// //Number of cups of water will be a constant based on an average.// //Calculator computes the cost of TOTAL minutes per city.//
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,38 +7,75 @@ and pets// //Number of cups of water will be a constant based on an average.// /
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- first step to a responsive site -->
-        <title>Stress</title>
+        <title>HTML Skeleton</title>
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-        <link rel="stylesheet" type="text/css" href="main.css">
 
         <!-- Your styles should be called here -->
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      	<![endif]-->
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <p>
+            INTRO HERE
+        </p>
+
+        <p>
+            I take <input type="text" id="shower" placeholder="Enter a number" /> showers a week. (One 10 minute shower is 21 gallons.)
+
+        </p>
+        <p>
+            I flush the toilet <input type="text" id="toilet" placeholder="Enter a number" /> a week. (Each flush is 3.5 gallons.)
+        </p>
+        <p>
+            I brush my teeth <input type="text" id="teeth" placeholder="Enter a number" /> a times a week. (Each time is half a gallon.)
+        </p>
+        <p>
+            I thoroughly wash my hands <input type="text" id="hands" placeholder="Enter a number" /> times a week. (Each time is two gallons.)
+        </p>
+        <p>
+            I wash dishes by hand with running water <input type="text" id="dishes" placeholder="Enter a number" /> a week. (4.4 gallons for 10 minutes.)
+        </p>
+        <p>
+            No, I wash dishes in a dishwasher. I do this <input type="text" id="dishwasher" placeholder="Enter a number" /> times a week. (10 gallons for one loads.)
+        </p>
+        <p>
+            I wash produce <input type="text" id="cooking" placeholder="Enter a number" /> times a week. (2 gallons for one minute.)
+        </p>
+        <p>
+            I wash clothes with a washing machine <input type="text" id="clothes" placeholder="Enter a number" /> times a week. (40 gallons for one load.)
+        </p>
+        <p>
+            I wash my car <input type="text" id="car" placeholder="Enter a number" /> times a week. (5 minutes is 32 gallons.)
+        </p>
+        <p>
+            I water the lawn with a hose <input type="text" id="lawn" placeholder="Enter a number" /> times a week. (5 minutes is 32 gallons.)
+        </p>
+        <p>
+            I drink <input type="text" id="cups" placeholder="Enter a number" /> cups of tap water a week. (There are approximately 10 cups of water in one gallon.)
+        </p>
 
 
+
+
+        <input type="radio" name="operation" value="add" /> Add
+        <input type="button" id="submit" value="Calculate" />
+        <br>
+        <br>
+      I use  <input type="text" id="sum" placeholder="Your sum will appear here" /> gallons of water a month. 
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
     </body>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <!-- Your javascript should be called here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="main.js"></script>
-
-
-    </body>
-
-</html>
-
 
 </html>
